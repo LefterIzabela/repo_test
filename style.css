@@ -24,9 +24,11 @@ header nav > ul {
 }
 
 ul li > a{
+    display: block;
     color: darkslategrey;
     text-align: center;
-    text-decoration: none;    padding: 14px;
+    text-decoration: none;
+    padding: 14px;
 }
 
 a:hover{
