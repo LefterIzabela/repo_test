@@ -1,0 +1,129 @@
+body{
+    background-image: url("./img/background.jpg");
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+body > header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-inline: 50px;
+    height: 150px;
+}
+
+header nav > ul {
+    display: flex;
+    list-style: none;
+    border-radius: 10px;
+    background-color: coral;
+    padding-left: 0;
+}
+
+ul li > a{
+    color: darkslategrey;
+    text-align: center;
+    text-decoration: none;    padding: 14px;
+}
+
+a:hover{
+    color: saddlebrown;
+}
+
+li:not(:last-child){
+    border-right: darkslategray 1px dashed;
+}
+
+.body{
+    padding-inline: 50px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+main > h1{
+    padding: 50px;
+    font-family: "Agency FB";
+    color: darkslategray;
+    font-size: 30px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    color: darkslategray;
+    width: 100%;
+}
+
+form > .name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+form > .personal-data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+form .personal-data > .selecting{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    gap: 30px;
+}
+
+.form-field{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.form-field > label{
+    font-family: "Agency FB";
+    color: darkslategray;
+    font-size: 30px;
+    flex-direction: row;
+}
+
+#first-name{
+    height: 30px;
+}
+
+#personal-id{
+    height: 30px;
+}
+
+#last-name{
+    height: 30px;
+}
+
+#birthdate{
+    height: 30px;
+}
+
+#gender{
+    height: 30px
+}
+
+button{
+    background-color: coral;
+    border-radius: 10px;
+    border-color: coral;
+    font-size: 20px;
+}
+
+.action-buttons{
+    display: flex;
+    justify-content: space-around;
+}

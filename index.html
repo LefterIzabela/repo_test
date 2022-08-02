@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test repo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> <!--        contine lucrurile care nu se modifica-->
+        <img class="logo" src="./img/logo.png" alt="logo image">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Owners</a></li>
+                <li><a href="cars.html">Cars</a></li>
+                <li><a href="#">Insurance</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main> <!--        contine lucrurile care se modifica-->
+        <h1>Add New Person</h1>
+        <div class="body">
+            <form>
+                <div class="name">
+                    <div class="form-field">
+                        <label for="first-name">First Name: </label>
+                        <input type="text" id="first-name"/>
+                    </div>
+                    <div class="form-field">
+                        <label for="last-name">Last Name: </label>
+                        <input type="text" id="last-name"/>
+                    </div>
+                </div>
+                <div class="personal-data">
+                    <div class="form-field">
+                        <label for="personal-id">Personal ID: </label>
+                        <input type="text" id="personal-id"/>
+                    </div>
+                    <div class="selecting">
+                        <div class="form-field">
+                            <label for="birthdate">Birthdate: </label>
+                            <input type="date" id="birthdate">
+                        </div>
+                        <div class="form-field">
+                            <label for="gender">Gender: </label>
+                            <select id="gender">
+                                <option>Female</option>
+                                <option>Male</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="action-buttons">
+                <button type="submit">Add Person</button>
+                <button type="reset">Reset</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
