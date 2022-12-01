@@ -1,0 +1,17 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+    grid-auto-rows: minmax(80px, auto);
+    /*pleaca de la 80px si isi modifica inaltimea in functie de scris*/
+}
+
+.wrapper > div{
+    background: darkgoldenrod;
+    padding: 1em;
+/*padding-ul se pastreaza direct proportional cu font-ul*/
+}
+
+.wrapper >div:nth-child(odd){
+    background: darkslateblue;
+}

@@ -1,0 +1,14 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+    grid-gap: 1em;
+}
+
+.wrapper > div{
+    background: khaki;
+    padding: 1em;
+}
+
+.wrapper >div:nth-child(odd){
+    background: brown;
+}
